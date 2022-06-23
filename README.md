@@ -1,6 +1,6 @@
 This directory contains source code for reproducing the analysis in:
 
-Sutton, Gavin J., Daniel Poppe, Rebecca K. Simmons, Kieran Walsh, Urwah Nawaz, Ryan Lister, Johann A. Gagnon-Bartsch, and Irina Voineagu. _Comprehensive evaluation of deconvolution methods for human brain gene expression._ **Nature Communications 13**, no. 1 (2022): 1-18. https://doi.org/10.1038/s41467-022-28655-4
+Sutton, G.J., Poppe D., Simmons R.K., Walsh K., Nawaz U., Lister R., Gagnon-Bartsch J.A., and Voineagu I. Comprehensive evaluation of deconvolution methods for human brain gene expression. Nat Commun 13, 1358 (2022). https://doi.org/10.1038/s41467-022-28655-4
 
 File naming conventions are as follows, and should be followed in order:
 - Group 1: scripts that preprocess public and generated data 
@@ -17,7 +17,7 @@ File naming conventions are as follows, and should be followed in order:
 
 | Method  | Classification | Reference and installation | 
 | ------- | -------------- | -------------------------- |
-| DeconRNASeq  | Partial deconvolution  | Gong, T. & Szustakowski, J. D. DeconRNASeq: a statistical framework for deconvolution of heterogeneous tissue samples based on mRNA-Seq data. Bioinformatics 29, 1083–1085 (2013). |
+| DeconRNASeq  | Partial deconvolution  | Gong, T. & Szustakowski, J. D. DeconRNASeq: a statistical framework for deconvolution of heterogeneous tissue samples based on mRNA-Seq data. Bioinformatics 29, 1083–1085 (2013). [Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/DeconRNASeq.html) |
 | CIBERSORT  | Partial deconvolution  | Newman, A. M. et al. Robust enumeration of cell subsets from tissue expression profiles. Nat. Methods 12, 453–457 (2015). Note: the R source for this package is available by request at the [CIBERSORT website](https://cibersortx.stanford.edu/)  |
 | dtangle  | Partial deconvolution  | Hunt, G. J., Freytag, S., Bahlo, M. & Gagnon-Bartsch, J. A. dtangle: accurate and robust cell type deconvolution. Bioinformatics 290262 (2018). |
 | MuSiC  | Partial deconvolution  | Wang, X., Park, J., Susztak, K., Zhang, N. R. & Li, M. Bulk tissue cell type deconvolution with multi-subject single-cell expression reference. Nat. Commun. 10, 380 (2019). |
@@ -31,4 +31,27 @@ File naming conventions are as follows, and should be followed in order:
 
 # Directory structure
 These scripts assume the following directory structure:
+
+.
+├── Data
+│   ├── Preprocessed
+│   └── QC
+│   └── Raw
+├── Results
+│   ├── ASD
+│   ├── DE_simulations
+│   ├── ... 
+│   └── CrossTissue
+└── Scripts
+ 
+
+
+
+# Other recommended readings
+We recommend .
+These focus more heavily on algorithm choice and data normalisation in non-brain tissues.
+
+Avila Cobos, F., Alquicira-Hernandez, J., Powell, J.E. et al. Benchmarking of cell type deconvolution pipelines for transcriptomics data. Nat Commun 11, 5650 (2020). https://doi.org/10.1038/s41467-020-19015-1
+Jin, H., Liu, Z. A benchmark for RNA-seq deconvolution analysis under dynamic testing environments. Genome Biol 22, 102 (2021). https://doi.org/10.1186/s13059-021-02290-6
+
 
