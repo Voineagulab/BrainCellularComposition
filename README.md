@@ -32,6 +32,7 @@ File naming conventions are as follows, and should be followed in order:
 # Directory structure
 These scripts assume the following directory structure:
 
+```
 .
 ├── Data
 │   ├── Preprocessed
@@ -43,7 +44,7 @@ These scripts assume the following directory structure:
 │   ├── ... 
 │   └── CrossTissue
 └── Scripts
- 
+ ```
 
 
 
