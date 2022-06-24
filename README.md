@@ -46,8 +46,7 @@ These scripts assume the following directory structure:
 │   ├── PublicBulkBrain
 │   ├── Other 
 └── Scripts
-
- ```
+```
 
 
 
