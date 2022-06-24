@@ -39,11 +39,14 @@ These scripts assume the following directory structure:
 │   └── QC
 │   └── Raw
 ├── Results
-│   ├── ASD
 │   ├── DE_simulations
-│   ├── ... 
-│   └── CrossTissue
+│   ├── scme 
+│   ├── snme 
+│   ├── CrushedBrains 
+│   ├── PublicBulkBrain
+│   ├── Other 
 └── Scripts
+
  ```
 
 
@@ -53,6 +56,7 @@ We recommend .
 These focus more heavily on algorithm choice and data normalisation in non-brain tissues.
 
 Avila Cobos, F., Alquicira-Hernandez, J., Powell, J.E. et al. Benchmarking of cell type deconvolution pipelines for transcriptomics data. Nat Commun 11, 5650 (2020). https://doi.org/10.1038/s41467-020-19015-1
+
 Jin, H., Liu, Z. A benchmark for RNA-seq deconvolution analysis under dynamic testing environments. Genome Biol 22, 102 (2021). https://doi.org/10.1186/s13059-021-02290-6
 
 
