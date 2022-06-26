@@ -13,19 +13,19 @@ File naming conventions are as follows, and should be followed in order:
 
 # Datasets
 ## For generating signatures
-Processed signature data can be accessed as [Supplementary Data 5](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-28655-4/MediaObjects/41467_2022_28655_MOESM8_ESM.xlsx) in our study. Links to access the raw data underlying this can be found below
+Processed signature data can be accessed as [Supplementary Data 5](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-28655-4/MediaObjects/41467_2022_28655_MOESM8_ESM.xlsx) in our study. Links to access the raw data underlying this can be found in the table below.
 
-| Name  | Species | Reference | Link | Used In | 
+| Name  | Species | Description | Reference and Link | Used In | 
 | ----- | ------- | --------- | ---- | ------- |
-| CA | Human | --------- | ---- | ------- |
+| CA | Human | --------- | Hodge, R. D. et al. Conserved cell types with divergent features in human versus mouse cortex. Nature 573, 61–68 (2019). | ------- |
 | DM | Human | --------- | ---- | ------- |
 | F5 | Human | --------- | ---- | ------- |
-| NG | Human | --------- | ---- | ------- |
-| VL | Human | --------- | ---- | ------- |
-| LK | Human | --------- | ---- | ------- |
-| IP | Human | --------- | ---- | ------- |
+| NG | Human | --------- | Nagy, C. et al. Single-nucleus transcriptomics of the prefrontal cortex in major depressive disorder implicates oligodendrocyte precursor cells and excitatory neurons. Nat. Neurosci. 23, 771–781 (2020). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144136) | ------- |
+| VL | Human | --------- | Velmeshev, D. et al. Single-cell genomics identifies cell type–specific molecular changes in autism. Science (80-.) 364, 685–689 (2019). [Data browser](https://autism.cells.ucsc.edu/) | ------- |
+| LK | Human | --------- | Lake, B. B. et al. Integrative single-cell analysis of transcriptional and epigenetic states in the human adult brain. Nat. Biotechnol. 36, 70–80 (2018). | ---- |
+| IP | Human | --------- | Zhang, Y. et al. Purification and characterization of progenitor and mature human astrocytes reveals transcriptional and functional differences with mouse. Neuron 89, 37–53 (2016). | ------- |
 | MM | Mouse | --------- | ---- | ------- |
-| TS | Mouse | --------- | ---- | ------- |
+| TS | Mouse | --------- | Tasic, B. et al. Shared and distinct transcriptomic cell types across neocortical areas. Nature 563, 72–78 (2018). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115746) | ------- |
 
 
 
@@ -38,9 +38,19 @@ The sequencing data generated in this study have been deposited in the GEO datab
 ## Bulk data for 
 The RNA-seq data for bulk brain tissue was accessed from the following two resources: Parikshak et al. (2016) (https://github.com/dhglab/Genome-wide-changes-in-lncRNA-alternative-splicing-and-cortical-patterning-in-autism/releases); and GTEx v7 release (https://gtexportal.org/home/datasets). Bulk pancreas and heart data were accessed from same GTEx resource.
 
-Brain cell-type-specific expression was accessed from the following nine resources: FANTOM5 (http://fantom.gsc.riken.jp/5/data/); Zhang et al. (2016) (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73721); Zhang et al. (2014) (https://web.stanford.edu/group/barres_lab/brain_rnaseq.html); Darmanis et al. (2015) (https://github.com/VCCRI/CIDR-examples/tree/master/Brain); Lake et al. (2018) (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97942); Velmeshev et al. (2019) (https://autism.cells.ucsc.edu/); The Human Cell Atlas (http://portal.brain-map.org/); Nagy et al. (2020) (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144136); and Tasic et al. (2018) (GSE115746).
+Brain cell-type-specific expression was accessed from the following nine resources: FANTOM5 (http://fantom.gsc.riken.jp/5/data/); Zhang et al. (2016) (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73721); Zhang et al. (2014) (https://web.stanford.edu/group/barres_lab/brain_rnaseq.html); Darmanis et al. (2015) (https://github.com/VCCRI/CIDR-examples/tree/master/Brain); Lake et al. (2018) (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97942); Velmeshev et al. (2019) ; The Human Cell Atlas (http://portal.brain-map.org/); 
 
-Cell-type-specific expression for non-brain tissues were accessed from the following four sources: Enge et al. (2017) (GSE81547); Blodgett et al. (2015) (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67543); Furuyama et al. (2019) (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117454); ENCODE (https://www.encodeproject.org/publication-data/ENCSR590RJC/); and Wang et al. (2020) (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109816).
+We also generated cell-type-specific signatures for two non-brain tissues, to test the tissue-specificity of our results.
+
+| Name  | Tissue | Description | Reference and Link | Used In | 
+| ----- | ------- | --------- | ---- | ------- |
+| EN | Pancreas | --------- | Enge, M. et al. Single-cell analysis of human pancreas reveals transcriptional signatures of aging and somatic mutation patterns. Cell 171, 321–330e14 (2017). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81547) | ----  |
+| BL | Pancreas | --------- | Blodgett, D. M. et al. Novel observations from next-generation RNA sequencing of highly purified human adult and fetal islet cell subsets. Diabetes 64, 3172–3181 (2015). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67543) | ------- |
+| FS | Pancreas | --------- | Furuyama, K. et al. Diabetes relief in mice by glucose-sensing insulin-secreting human α-cells. Nature 567, 43–48 (2019). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117454) | ------- |
+| FG | Pancreas | --------- | Furuyama, K. et al. Diabetes relief in mice by glucose-sensing insulin-secreting human α-cells. Nature 567, 43–48 (2019). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117454) | ------- |
+| F5 | Heart | --------- | ---- | ------- |
+| EN | Heart | --------- | Djebali, S. et al. Landscape of transcription in human cells. Nature 489, 101–108 (2012). [ENCODE](https://www.encodeproject.org/publication-data/ENCSR590RJC/) | ------- |
+| SC | Heart | --------- | Wang, L. et al. Single-cell reconstruction of the adult human heart during heart failure and recovery reveals the cellular landscape underlying cardiac function. Nat. Cell Biol. 22, 108–119 (2020). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109816) | ------- |
 
 # Deconvolution Algorithms
 
@@ -80,11 +90,10 @@ These scripts assume the following directory structure:
 
 
 # Other recommended readings
-We recommend .
-These focus more heavily on algorithm choice and data normalisation in non-brain tissues.
+For those interested in further reading about deconvolution benchmarking, we recommend the following as a starting point. These papers tend to focus on algorithm choice and data normalisation in non-brain tissues.
 
 Avila Cobos, F., Alquicira-Hernandez, J., Powell, J.E. et al. Benchmarking of cell type deconvolution pipelines for transcriptomics data. Nat Commun 11, 5650 (2020). https://doi.org/10.1038/s41467-020-19015-1
 
 Jin, H., Liu, Z. A benchmark for RNA-seq deconvolution analysis under dynamic testing environments. Genome Biol 22, 102 (2021). https://doi.org/10.1186/s13059-021-02290-6
 
-
+Mohammadi, S., Zuckerman, N., Goldsmith, A., & Grama, A. A critical survey of deconvolution methods for separating cell types in complex tissues. Proceedings of the IEEE, 105(2), 340-366 (2017). https://doi.org/10.1109/JPROC.2016.2607121.
