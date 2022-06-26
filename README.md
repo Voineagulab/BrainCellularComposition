@@ -12,34 +12,32 @@ File naming conventions are as follows, and should be followed in order:
 - Fun: contains general custom functions for calling in other scripts
 
 # Datasets
-## For generating signatures
+The sequencing data generated in this study have been deposited in the GEO database under accession code GSE175772. 
+
+### For generating signatures
 Processed signature data can be accessed as [Supplementary Data 5](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-28655-4/MediaObjects/41467_2022_28655_MOESM8_ESM.xlsx) in our study. Links to access the raw data underlying this can be found in the table below.
 
 | Name  | Species | Description | Reference and Link | Used In | 
 | ----- | ------- | --------- | ---- | ------- |
-| CA | Human | --------- | Hodge, R. D. et al. Conserved cell types with divergent features in human versus mouse cortex. Nature 573, 61–68 (2019). | ------- |
-| DM | Human | --------- | ---- | ------- |
-| F5 | Human | --------- | ---- | ------- |
-| NG | Human | --------- | Nagy, C. et al. Single-nucleus transcriptomics of the prefrontal cortex in major depressive disorder implicates oligodendrocyte precursor cells and excitatory neurons. Nat. Neurosci. 23, 771–781 (2020). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144136) | ------- |
-| VL | Human | --------- | Velmeshev, D. et al. Single-cell genomics identifies cell type–specific molecular changes in autism. Science (80-.) 364, 685–689 (2019). [Data browser](https://autism.cells.ucsc.edu/) | ------- |
-| LK | Human | --------- | Lake, B. B. et al. Integrative single-cell analysis of transcriptional and epigenetic states in the human adult brain. Nat. Biotechnol. 36, 70–80 (2018). | ---- |
-| IP | Human | --------- | Zhang, Y. et al. Purification and characterization of progenitor and mature human astrocytes reveals transcriptional and functional differences with mouse. Neuron 89, 37–53 (2016). | ------- |
-| MM | Mouse | --------- | ---- | ------- |
-| TS | Mouse | --------- | Tasic, B. et al. Shared and distinct transcriptomic cell types across neocortical areas. Nature 563, 72–78 (2018). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115746) | ------- |
+| CA | Human | Post-mortem brain tissue, smartSeq2 snRNA-seq | Hodge, R. D. et al. Conserved cell types with divergent features in human versus mouse cortex. Nature 573, 61–68 (2019). [Human Cell Atlas website](http://portal.brain-map.org/)| ------- |
+| DM | Human | Surgically-resected brain tissue, smartSeq scRNA-seq | Darmanis, S. et al. A survey of human brain transcriptome diversity at the single cell level. Proc. Natl Acad. Sci. USA 112, 7285–7290 (2015). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67835), or processed version on [GitHub](https://github.com/VCCRI/CIDR-examples/tree/master/Brain) | ------- |
+| F5 | Human | Cultured brain cells, bulk CAGE-seq | Forrest, A. R. R. et al. A promoter-level mammalian expression atlas. Nature 507, 462–470 (2014). [FANTOM5 Website](http://fantom.gsc.riken.jp/5/data/)  | ----|
+| NG | Human | Post-mortem brain tissue, 10X snRNA-seq | Nagy, C. et al. Single-nucleus transcriptomics of the prefrontal cortex in major depressive disorder implicates oligodendrocyte precursor cells and excitatory neurons. Nat. Neurosci. 23, 771–781 (2020). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144136) | ------- |
+| VL | Human | Post-mortem brain tissue, 10X snRNA-seq | Velmeshev, D. et al. Single-cell genomics identifies cell type–specific molecular changes in autism. Science (80-.) 364, 685–689 (2019). [Data browser](https://autism.cells.ucsc.edu/) | ------- |
+| LK | Human | Post-mortem brain tissue, 10X snRNA-seq | Lake, B. B. et al. Integrative single-cell analysis of transcriptional and epigenetic states in the human adult brain. Nat. Biotechnol. 36, 70–80 (2018). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97942) | ---- |
+| IP | Human | Surgically-resected brain tissue, bulk RNA-seq | Zhang, Y. et al. Purification and characterization of progenitor and mature human astrocytes reveals transcriptional and functional differences with mouse. Neuron 89, 37–53 (2016). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73721) | ------- |
+| MM | Mouse | Mouse brain, bulk RNA-seq | Zhang, Y. et al. An RNA-sequencing transcriptome and splicing database of glia, neurons, and vascular cells of the cerebral cortex. J. Neurosci. 34, 11929–11947 (2014). [Paper website](https://web.stanford.edu/group/barres_lab/brain_rnaseq.html)  | ---- |
+| TS | Mouse | Mouse brain, SmartSeq2 scRNA-seq | Tasic, B. et al. Shared and distinct transcriptomic cell types across neocortical areas. Nature 563, 72–78 (2018). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115746) | ------- |
+
+### Bulk RNA-seq datasets deconvolved as exemplars
+| Name  | Samples | Details | Reference and Link | 
+| ----- | ------- | --------- | ---- |
+| Parikshak | Human | Ribo-depleted RNA-seq from 251 post-mortem samples including frontal cortex, temporal cortex, and cerebellar vermis samples from 48 ASD and 49 control individuals, aged 2–67 | Parikshak, N. N. et al. Genome-wide changes in lncRNA, splicing, and regional gene expression patterns in autism. Nature 540, 423–427 (2016). [GitHub](https://github.com/dhglab/Genome-wide-changes-in-lncRNA-alternative-splicing-and-cortical-patterning-in-autism/releases) |
+| GTEx V7 Brain | Human | Poly-A+ RNA-seq of 1671 post-mortem samples, including 13 subregions which we classified as cortical, sub-cortical, cerebellar, or spinal | Consortium, Gte. Genetic effects on gene expression across human tissues. Nature 550, 204–213 (2017). [GTEx website](https://gtexportal.org/home/datasets) |
 
 
 
-
-The sequencing data generated in this study have been deposited in the GEO database under accession code GSE175772 (Processed signature data can be accessed in Supplementary Data 5.) A website for users to deconvolution their own brain data with the top performing algorithms is implemented at https://voineagulab.shinyapps.io/BrainDeconvShiny/.
-
-## To serve as mixtures
-
-
-## Bulk data for 
-The RNA-seq data for bulk brain tissue was accessed from the following two resources: Parikshak et al. (2016) (https://github.com/dhglab/Genome-wide-changes-in-lncRNA-alternative-splicing-and-cortical-patterning-in-autism/releases); and GTEx v7 release (https://gtexportal.org/home/datasets). Bulk pancreas and heart data were accessed from same GTEx resource.
-
-Brain cell-type-specific expression was accessed from the following nine resources: FANTOM5 (http://fantom.gsc.riken.jp/5/data/); Zhang et al. (2016) (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73721); Zhang et al. (2014) (https://web.stanford.edu/group/barres_lab/brain_rnaseq.html); Darmanis et al. (2015) (https://github.com/VCCRI/CIDR-examples/tree/master/Brain); Lake et al. (2018) (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97942); Velmeshev et al. (2019) ; The Human Cell Atlas (http://portal.brain-map.org/); 
-
+### Non-brain data
 We also generated cell-type-specific signatures for two non-brain tissues, to test the tissue-specificity of our results.
 
 | Name  | Tissue | Description | Reference and Link | Used In | 
@@ -48,7 +46,7 @@ We also generated cell-type-specific signatures for two non-brain tissues, to te
 | BL | Pancreas | --------- | Blodgett, D. M. et al. Novel observations from next-generation RNA sequencing of highly purified human adult and fetal islet cell subsets. Diabetes 64, 3172–3181 (2015). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67543) | ------- |
 | FS | Pancreas | --------- | Furuyama, K. et al. Diabetes relief in mice by glucose-sensing insulin-secreting human α-cells. Nature 567, 43–48 (2019). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117454) | ------- |
 | FG | Pancreas | --------- | Furuyama, K. et al. Diabetes relief in mice by glucose-sensing insulin-secreting human α-cells. Nature 567, 43–48 (2019). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117454) | ------- |
-| F5 | Heart | --------- | ---- | ------- |
+| F5 | Heart | --------- | Forrest, A. R. R. et al. A promoter-level mammalian expression atlas. Nature 507, 462–470 (2014). [FANTOM5 Website](http://fantom.gsc.riken.jp/5/data/)  | ------- |
 | EN | Heart | --------- | Djebali, S. et al. Landscape of transcription in human cells. Nature 489, 101–108 (2012). [ENCODE](https://www.encodeproject.org/publication-data/ENCSR590RJC/) | ------- |
 | SC | Heart | --------- | Wang, L. et al. Single-cell reconstruction of the adult human heart during heart failure and recovery reveals the cellular landscape underlying cardiac function. Nat. Cell Biol. 22, 108–119 (2020). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109816) | ------- |
 
@@ -65,8 +63,12 @@ We also generated cell-type-specific signatures for two non-brain tissues, to te
 | BrainInABlender  | Enrichment  | Hagenauer, M. H. et al. Inference of cell type content from human brain transcriptomic datasets illuminates the effects of age, manner of death, dissection, and psychiatric diagnosis. PLoS ONE 13, 89391 (2018). [GitHub](https://github.com/hagenaue/BrainInABlender)|
 | xCell  | Enrichment  | Aran, D., Hu, Z. & Butte, A. J. xCell: digitally portraying the tissue cellular heterogeneity landscape. Genome Biol. 18, 1–14 (2017). [GitHub](https://github.com/dviraran/xCell)|
 
-# Packages
+# Other packages
+### For core analyses
+In progress
 
+### For auxiliary work, e.g. data wrangling and visualisation
+In progress
 
 # Directory structure
 These scripts assume the following directory structure:
