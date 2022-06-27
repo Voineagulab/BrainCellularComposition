@@ -42,13 +42,13 @@ We also generated cell-type-specific signatures for two non-brain tissues, to te
 
 | Name  | Tissue | Description | Reference and Link | Used In | 
 | ----- | ------- | --------- | ---- | ------- |
-| EN | Pancreas | --------- | Enge, M. et al. Single-cell analysis of human pancreas reveals transcriptional signatures of aging and somatic mutation patterns. Cell 171, 321–330e14 (2017). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81547) | ----  |
-| BL | Pancreas | --------- | Blodgett, D. M. et al. Novel observations from next-generation RNA sequencing of highly purified human adult and fetal islet cell subsets. Diabetes 64, 3172–3181 (2015). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67543) | ------- |
-| FS | Pancreas | --------- | Furuyama, K. et al. Diabetes relief in mice by glucose-sensing insulin-secreting human α-cells. Nature 567, 43–48 (2019). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117454) | ------- |
-| FG | Pancreas | --------- | Furuyama, K. et al. Diabetes relief in mice by glucose-sensing insulin-secreting human α-cells. Nature 567, 43–48 (2019). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117454) | ------- |
-| F5 | Heart | --------- | Forrest, A. R. R. et al. A promoter-level mammalian expression atlas. Nature 507, 462–470 (2014). [FANTOM5 Website](http://fantom.gsc.riken.jp/5/data/)  | ------- |
-| EN | Heart | --------- | Djebali, S. et al. Landscape of transcription in human cells. Nature 489, 101–108 (2012). [ENCODE](https://www.encodeproject.org/publication-data/ENCSR590RJC/) | ------- |
-| SC | Heart | --------- | Wang, L. et al. Single-cell reconstruction of the adult human heart during heart failure and recovery reveals the cellular landscape underlying cardiac function. Nat. Cell Biol. 22, 108–119 (2020). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109816) | ------- |
+| EN | Pancreas | FACS-isolated tissue, single-cell RNA-seq | Enge, M. et al. Single-cell analysis of human pancreas reveals transcriptional signatures of aging and somatic mutation patterns. Cell 171, 321–330e14 (2017). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81547) | ----  |
+| BL | Pancreas | FACS-isolated tissue, bulk RNA-seq | Blodgett, D. M. et al. Novel observations from next-generation RNA sequencing of highly purified human adult and fetal islet cell subsets. Diabetes 64, 3172–3181 (2015). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67543) | ------- |
+| FS | Pancreas | FACS-isolated tissue, bulk RNA-seq | Furuyama, K. et al. Diabetes relief in mice by glucose-sensing insulin-secreting human α-cells. Nature 567, 43–48 (2019). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117454) | ------- |
+| FG | Pancreas | Cultured FACS-isolated tissue, bulk RNA-seq | Furuyama, K. et al. Diabetes relief in mice by glucose-sensing insulin-secreting human α-cells. Nature 567, 43–48 (2019). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117454) | ------- |
+| F5 | Heart | Cultured cells, bulk CAGE-seq | Forrest, A. R. R. et al. A promoter-level mammalian expression atlas. Nature 507, 462–470 (2014). [FANTOM5 Website](http://fantom.gsc.riken.jp/5/data/)  | ------- |
+| EN | Heart | Cultured cells, RNA-seq | Djebali, S. et al. Landscape of transcription in human cells. Nature 489, 101–108 (2012). [ENCODE](https://www.encodeproject.org/publication-data/ENCSR590RJC/) | ------- |
+| SC | Heart | Fresh tissue, scRNA-seq using iCell8 | Wang, L. et al. Single-cell reconstruction of the adult human heart during heart failure and recovery reveals the cellular landscape underlying cardiac function. Nat. Cell Biol. 22, 108–119 (2020). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109816) | ------- |
 
 # Deconvolution Algorithms
 
