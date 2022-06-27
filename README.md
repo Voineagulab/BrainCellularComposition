@@ -77,15 +77,26 @@ These scripts assume the following directory structure:
 .
 ├── Data
 │   ├── Preprocessed
-│   └── QC
 │   └── Raw
 ├── Results
-│   ├── DE_simulations
-│   ├── scme 
-│   ├── snme 
-│   ├── CrushedBrains 
-│   ├── PublicBulkBrain
-│   ├── Other 
+│   ├── ConfoundingComposition
+│   │   ├── CompositionOnly
+│   │   ├── CompositionAndExpression
+│   │   └── CIBERSORTx
+│   ├── BulkTissue
+│   │   ├── Autism
+│   │   ├── GTEx
+│   │   └── Parikshak
+│   ├── Other
+│   │   ├── CompositionOnly
+│   │   ├── CompositionAndExpression
+│   │   └── CIBERSORTx
+│   ├── BenchmarkingDatasets
+│   │   ├── CA
+│   │   ├── DM
+│   │   ├── Immunopanned
+│   │   ├── RNA
+│   │   └── VL
 └── Scripts
 ```
 
