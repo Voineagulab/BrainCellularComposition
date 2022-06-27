@@ -71,10 +71,10 @@ In progress
 In progress
 
 # Directory structure
-These scripts assume the following directory structure:
+These scripts assume the below directory structure. Feel free to rename the root as best suits you, however the scripts use ./BrainCellularComposition_GitHub 
 
 ```
-.
+./BrainCellularComposition_GitHub
 ├── Data
 │   ├── Preprocessed
 │   └── Raw
