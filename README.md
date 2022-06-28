@@ -77,6 +77,7 @@ These scripts assume the below directory structure. Feel free to rename the root
 ./BrainCellularComposition_GitHub
 ├── Data
 │   ├── Preprocessed
+│   │   └── CIB
 │   └── Raw
 ├── Results
 │   ├── ConfoundingComposition
