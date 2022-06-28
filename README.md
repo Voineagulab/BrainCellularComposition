@@ -32,8 +32,8 @@ Processed signature data can be accessed as [Supplementary Data 5](https://stati
 ### Bulk RNA-seq datasets deconvolved as exemplars
 | Name  | Samples | Details | Reference and Link | 
 | ----- | ------- | --------- | ---- |
-| Parikshak | Human | Ribo-depleted RNA-seq from 251 post-mortem samples including frontal cortex, temporal cortex, and cerebellar vermis samples from 48 ASD and 49 control individuals, aged 2–67 | Parikshak, N. N. et al. Genome-wide changes in lncRNA, splicing, and regional gene expression patterns in autism. Nature 540, 423–427 (2016). [GitHub](https://github.com/dhglab/Genome-wide-changes-in-lncRNA-alternative-splicing-and-cortical-patterning-in-autism/releases) |
-| GTEx V7 Brain | Human | Poly-A+ RNA-seq of 1671 post-mortem samples, including 13 subregions which we classified as cortical, sub-cortical, cerebellar, or spinal | Consortium, Gte. Genetic effects on gene expression across human tissues. Nature 550, 204–213 (2017). [GTEx website](https://gtexportal.org/home/datasets) |
+| Parikshak | Human | Ribo-depleted RNA-seq from 251 post-mortem samples including frontal cortex, temporal cortex, and cerebellar vermis samples from 48 ASD and 49 control individuals, aged 2–67 | Parikshak, N. N. et al. Genome-wide changes in lncRNA, splicing, and regional gene expression patterns in autism. Nature 540, 423–427 (2016). [GitHub](https://github.com/dhglab/Genome-wide-changes-in-lncRNA-alternative-splicing-and-cortical-patterning-in-autism/releases), [specifically this RDA](https://github.com/dhglab/Genome-wide-changes-in-lncRNA-alternative-splicing-and-cortical-patterning-in-autism/releases/download/0.1/ASD_RNAseq_ExpressionData.Rdata) |
+| GTEx V7 Brain | Human | Poly-A+ RNA-seq of 1671 post-mortem samples, including 13 subregions which we classified as cortical, sub-cortical, cerebellar, or spinal | Consortium, Gte. Genetic effects on gene expression across human tissues. Nature 550, 204–213 (2017). [GTEx website](https://gtexportal.org/home/datasets), [specifically V7 counts](https://storage.googleapis.com/gtex_analysis_v7/rna_seq_data/GTEx_Analysis_2016-01-15_v7_RNASeQCv1.1.8_gene_reads.gct.gz)  |
 
 
 
