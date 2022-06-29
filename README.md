@@ -19,7 +19,7 @@ Processed signature data can be accessed as [Supplementary Data 5](https://stati
 
 | Name  | Species | Description | Reference and Link | Used In | 
 | ----- | ------- | --------- | ---- | ------- |
-| CA | Human | Post-mortem brain tissue, smartSeq2 snRNA-seq | Hodge, R. D. et al. Conserved cell types with divergent features in human versus mouse cortex. Nature 573, 61–68 (2019). [Human Cell Atlas website](http://portal.brain-map.org/)| ------- |
+| CA | Human | Post-mortem brain tissue, smartSeq2 snRNA-seq | Hodge, R. D. et al. Conserved cell types with divergent features in human versus mouse cortex. Nature 573, 61–68 (2019). [Human Cell Atlas website](http://portal.brain-map.org/), specifically [this](https://portal.brain-map.org/atlases-and-data/rnaseq/human-mtg-smart-seq)| ------- |
 | DM | Human | Surgically-resected brain tissue, smartSeq scRNA-seq | Darmanis, S. et al. A survey of human brain transcriptome diversity at the single cell level. Proc. Natl Acad. Sci. USA 112, 7285–7290 (2015). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67835), or processed version on [GitHub](https://github.com/VCCRI/CIDR-examples/tree/master/Brain) | ------- |
 | F5 | Human | Cultured brain cells, bulk CAGE-seq | Forrest, A. R. R. et al. A promoter-level mammalian expression atlas. Nature 507, 462–470 (2014). [FANTOM5 Website](http://fantom.gsc.riken.jp/5/data/)  | ----|
 | NG | Human | Post-mortem brain tissue, 10X snRNA-seq | Nagy, C. et al. Single-nucleus transcriptomics of the prefrontal cortex in major depressive disorder implicates oligodendrocyte precursor cells and excitatory neurons. Nat. Neurosci. 23, 771–781 (2020). [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144136) | ------- |
