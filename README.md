@@ -103,7 +103,8 @@ These scripts assume the below directory structure. Feel free to rename the root
 
 
 
-# Other recommended readings -  deconvolution benchmarking in non-brain tissues, algorithm choice and data normalisation:
+# Other recommended readings
+Deconvolution benchmarking in non-brain tissues, algorithm choice and data normalisation:
 
 Avila Cobos, F., Alquicira-Hernandez, J., Powell, J.E. et al. Benchmarking of cell type deconvolution pipelines for transcriptomics data. Nat Commun 11, 5650 (2020). https://doi.org/10.1038/s41467-020-19015-1
 
