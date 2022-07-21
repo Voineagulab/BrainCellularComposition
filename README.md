@@ -71,7 +71,7 @@ In progress
 In progress
 
 # Directory structure
-These scripts assume the below directory structure. Feel free to rename the root as best suits you, however the scripts use ./BrainCellularComposition_GitHub 
+These scripts assume the below directory structure. Feel free to rename the root as best suits you, however the scripts use ./BrainCellularComposition_GitHub. Please ave all downloaded files into ./Data/Raw 
 
 ```
 ./BrainCellularComposition_GitHub
@@ -89,14 +89,12 @@ These scripts assume the below directory structure. Feel free to rename the root
 │   │   ├── GTEx
 │   │   └── Parikshak
 │   ├── Other
-│   │   ├── CompositionOnly
-│   │   ├── CompositionAndExpression
-│   │   └── CIBERSORTx
+│   │   ├── RNAvsCellContent
+│   │   └── NonBrain
 │   ├── BenchmarkingDatasets
 │   │   ├── CA
 │   │   ├── DM
-│   │   ├── Immunopanned
-│   │   ├── RNA
+│   │   ├── Supplementary
 │   │   └── VL
 └── Scripts
 ```
